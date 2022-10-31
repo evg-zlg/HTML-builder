@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const { stdin } = require("process");
 const output = fs.createWriteStream(path.resolve(__dirname, "text.txt"), "utf-8");
 
 
